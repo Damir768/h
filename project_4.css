@@ -1,0 +1,25 @@
+
+.menu{
+    display: flex;
+    width: 1440px;
+    height: 159px;
+    background-color: chartreuse;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+p{
+    font-size: 50px;
+}
+div{
+    background-color: black;
+}

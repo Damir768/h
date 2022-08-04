@@ -1,0 +1,105 @@
+
+.menu{
+    display: flex;
+    width: 1440px;
+    height: 159px;
+    background-color: chartreuse;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+.help{
+    text-align: center;
+    width: 100%;
+height: 752px;
+left: 0px;
+top: 272px;
+
+background: #000000;
+}
+.tel{
+    position: absolute;
+width: 136px;
+height: 118px;
+right: 700px;
+float: right;
+border-radius: 30px;
+background: url(800px-Telegram_Messenger.png);
+}
+p{
+    color: white;
+}
+.h{
+    color: white;
+}
+img{
+    width: 136px;
+height: 118px;
+left: 93px;
+top: 626px;
+border-radius: 30px;
+}
+script{
+    padding-left: 50%;
+    
+}
+
+        .circle{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 50%;
+             position: relative;
+            left: 0px;
+            animation-name: aqua-circle;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+        }
+        @keyframes aqua-circle{
+            0%{
+                left: -100%;
+            }
+            
+        
+            100%{
+                left: 1400px;
+            }
+        }
+        .circle_2{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+            position: relative;
+            right: 0px;
+            animation-name: green-circle;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+        }
+        @keyframes green-circle{
+            0%{
+                right: -100%;
+            }
+            
+        
+            100%{
+                right: 0px;
+            }
+        }
+        .content{
+            display: flex;
+        }
+    
